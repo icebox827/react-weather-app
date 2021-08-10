@@ -1,16 +1,47 @@
 import React from 'react';
-import { Container, Grid, GridItem, Box } from "@chakra-ui/react"
+import { Flex, Box, Heading, Center, Spacer, Menu, MenuItem } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <Container>
-      <Grid templateColumns="repeat(2, 1fr)" gap={6}>
-        <Box w="100%" h="10" bg="blue.500" >
-          
+    <Flex >
+      <Menu>
+      <Box w="100%" h="50" bg="blue.500" >
+        <Center>
+          <Heading color="white">
+            Captain Meteo
+          </Heading>
+        </Center>
+      </Box>
+      <Spacer />
+      <Box w="100%" h="50" bg="blue.500" p="2">
+        <MenuItem
+          className="social"
+          color="white"
+        >
+          <Link to="">
+            <h3>Github</h3>
+          </Link>
+        </MenuItem>
+        <MenuItem
+          className="social"
+          color="white"
+        >
+          <Link to="">
+            <h3>Github</h3>
+          </Link>
+        </MenuItem>
+        <MenuItem
+          className="social"
+          color="white"
+        >
+          <Link to="">
+            <h3>Github</h3>
+          </Link>
+        </MenuItem>
         </Box>
-        <Box w="100%" h="10" bg="blue.500" ></Box>
-      </Grid>
-    </Container>
+      </Menu>
+    </Flex>
   )
 }
 
