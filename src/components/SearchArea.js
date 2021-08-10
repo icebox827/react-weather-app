@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Button, Center } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 
 function SearchArea() {
   return (
@@ -12,8 +12,13 @@ function SearchArea() {
           id="city" 
           placeholder="Please enter the city here!" 
         />
-        <br />
-        <Button color="white" bg="blue.500">Search</Button>
+        <input 
+          type="submit"
+          color="white" 
+          bg="blue.500"
+          className="btn"
+          value="Search"
+        />
       </form>
     </Flex>
   )
