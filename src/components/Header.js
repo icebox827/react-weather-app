@@ -19,25 +19,19 @@ function Header() {
           className="social"
           color="white"
         >
-          <Link to="">
-            <h3>Github</h3>
-          </Link>
+         
         </MenuItem>
         <MenuItem
           className="social"
           color="white"
         >
-          <Link to="">
-            <h3>Github</h3>
-          </Link>
+          
         </MenuItem>
         <MenuItem
           className="social"
           color="white"
         >
-          <Link to="">
-            <h3>Github</h3>
-          </Link>
+         
         </MenuItem>
         </Box>
       </Menu>
