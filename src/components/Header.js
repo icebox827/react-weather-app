@@ -1,6 +1,6 @@
 import React from 'react';
 import { Flex, Box, Heading, Center, Spacer, Menu, MenuItem } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Header() {
   return (
@@ -19,19 +19,19 @@ function Header() {
           className="social"
           color="white"
         >
-         
+          <FontAwesomeIcon icon="github" />
         </MenuItem>
         <MenuItem
           className="social"
           color="white"
         >
-          
+          <FontAwesomeIcon icon="linkedin" />
         </MenuItem>
         <MenuItem
           className="social"
           color="white"
         >
-         
+         <FontAwesomeIcon icon="angellist" />
         </MenuItem>
         </Box>
       </Menu>
